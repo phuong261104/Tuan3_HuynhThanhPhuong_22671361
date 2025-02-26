@@ -1,12 +1,12 @@
 // import './App.css'
 
-import Ex1 from "./component/ex1"
+import Ex2 from "./component/ex2"
 
 function App() {
 
   return (
     <>
-      <Ex1 />
+      <Ex2 />
     </>
   )
 }

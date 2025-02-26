@@ -18,11 +18,11 @@ const Footer = () => {
                     <div className="footer-logo">
                         <span className="logo">Chefify</span>
                     </div>
-                    <p>© 2023 Chefify Company | Terms of Service | Privacy Policy</p>
+                    <p> <span className="logo">Chefify</span>© 2023 Chefify Company | Terms of Service | Privacy Policy</p>
                 </div>
             </div>
 
-            <div>
+            <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <div className="footer-section">
                     <h3>Learn More</h3>
                     <ul>
@@ -53,7 +53,7 @@ const Footer = () => {
                     <li>Christmas</li>
                 </ul>
             </div>
-        </footer>
+        </footer >
     );
 };
 
